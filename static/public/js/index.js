@@ -319,7 +319,7 @@ function setupCloak() {
         changeFavicon(localStorage.getItem('cloakFavicon'));
     }
     if (localStorage.getItem('cloakTitle') == null && localStorage.getItem('cloakFavicon') == null) {
-        document.title = 'Elixir - Blazingly Fast Math Help!';
+        document.title = 'Alpha Network';
         changeFavicon('favicon.ico');
     }
 }
